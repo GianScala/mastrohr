@@ -5,75 +5,80 @@ module.exports = {
       extend: {
         colors: {
           primary: {
-            50: '#FAFAFA',
-            100: '#F4F4F5',
-            200: '#E4E4E7',
-            300: '#D4D4D8',
-            400: '#A1A1AA',
-            500: '#18181B',  // Main color - sophisticated dark
-            600: '#131314',
-            700: '#0D0D0E',
-            800: '#080809',
-            900: '#030303',
+            50: '#F4F4F5',
+            100: '#E4E4E7',
+            200: '#A1A1AA',
+            300: '#71717A',
+            400: '#52525B',
+            500: '#09090B',  // Much darker main color
+            600: '#070708',
+            700: '#050506',
+            800: '#030304',
+            900: '#010102',
           },
           accent: {
-            50: '#F6F4FF',
-            100: '#EDE9FF',
-            200: '#DCD4FF',
-            300: '#C2B5FF',
-            400: '#9C89FF',
-            500: '#6B3FA0',  // Rich purple - perfect for accents
-            600: '#5A2E8F',
-            700: '#482178',
-            800: '#371662',
-            900: '#260D4C',
+            50: '#FFE4E1',
+            100: '#FFD1CC',
+            200: '#FFB3AA',
+            300: '#FF8C80',
+            400: '#FF6B5B',
+            500: '#8B1F1A',  // Much darker Mars red
+            600: '#771A16',  // Deeper red
+            700: '#631512',  // Even deeper
+            800: '#4F110E',  // Very deep
+            900: '#3B0C0A',  // Extremely deep
           },
-          dark: {           // More blacks/grays for layering
-            500: '#101012',  // Main background
-            600: '#0C0C0D',
-            700: '#080809',
-            800: '#040405',
-            900: '#020202',
+          dark: {           // Ultra-dark blacks
+            500: '#050506',  // Main background
+            600: '#040405',
+            700: '#030304',
+            800: '#020203',
+            900: '#010102',
           },
           surface: {
-            card: '#1C1C1F',    // Card backgrounds
-            default: '#18181B',  // Main surface
-            deep: '#131314',     // Deeper elements
+            card: '#0A0A0C',    // Darker card backgrounds
+            default: '#080809',  // Darker main surface
+            deep: '#060607',     // Deeper elements
+          },
+          mars: {           // Darker Mars colors
+            rust: '#6B1815',     // Dark rust
+            ember: '#8B1F1A',    // Dark ember
+            shadow: '#3B0C0A',   // Very dark shadows
+            dust: '#561311',     // Dark dust
+            night: '#030304'     // Ultra dark night
           },
           text: {
             primary: '#FFFFFF',
-            secondary: '#A1A1AA',
-            tertiary: '#71717A',
-            purple: '#9C89FF',   // Accent text
+            secondary: '#71717A',
+            tertiary: '#52525B',
+            accent: '#8B1F1A',   // Dark red text
           },
-          // Special effects colors
           glass: {
-            light: 'rgba(255, 255, 255, 0.03)',
-            medium: 'rgba(255, 255, 255, 0.05)',
-            heavy: 'rgba(255, 255, 255, 0.08)',
+            light: 'rgba(255, 255, 255, 0.02)',
+            medium: 'rgba(255, 255, 255, 0.03)',
+            heavy: 'rgba(255, 255, 255, 0.05)',
           },
           overlay: {
-            light: 'rgba(0, 0, 0, 0.2)',
-            medium: 'rgba(0, 0, 0, 0.4)',
-            heavy: 'rgba(0, 0, 0, 0.6)',
+            light: 'rgba(0, 0, 0, 0.4)',
+            medium: 'rgba(0, 0, 0, 0.6)',
+            heavy: 'rgba(0, 0, 0, 0.8)',
           },
-          // Additional UI colors
           state: {
-            success: '#38B26C',
-            warning: '#F7B955',
-            error: '#E35D6A',
-            info: '#4A9BFF',
+            success: '#1F5937',
+            warning: '#8B4513',
+            error: '#8B1F1A',
+            info: '#1F3D8B',
           }
         },
         backgroundImage: {
           'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-          'gradient-dark': 'linear-gradient(180deg, var(--tw-gradient-stops))',
-          'gradient-glass': 'linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02))',
+          'gradient-dark': 'linear-gradient(180deg, #09090B 0%, #050506 100%)',
+          'gradient-mars': 'linear-gradient(180deg, #8B1F1A 0%, #3B0C0A 100%)',
         },
         boxShadow: {
-          'card': '0 4px 24px -1px rgba(0, 0, 0, 0.3)',
-          'button': '0 2px 8px -1px rgba(0, 0, 0, 0.3)',
-          'purple': '0 4px 24px -1px rgba(107, 63, 160, 0.2)',
+          'card': '0 4px 24px -1px rgba(0, 0, 0, 0.5)',
+          'button': '0 2px 8px -1px rgba(0, 0, 0, 0.5)',
+          'mars': '0 4px 24px -1px rgba(139, 31, 26, 0.15)',
         }
       },
     },
