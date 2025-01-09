@@ -10,31 +10,38 @@ module.exports = {
             200: '#C3CFD9',
             300: '#9DB1C3',
             400: '#7890A9',
-            500: '#486A82',  // Main primary
-            600: '#345066',
-            700: '#243849',
-            800: '#15212D',
-            900: '#070B0F',
+            500: '#1F4349',  // Deep teal from image
+            600: '#183438',
+            700: '#122529',
+            800: '#0C171A',
+            900: '#060A0C',
           },
           accent: {
-            50: '#FFF2F1',
-            100: '#FFE5E2',
-            200: '#FFCCC6',
-            300: '#FFA89E',
-            400: '#FF8B80',
-            500: '#FF6F61',  // Main accent - keeping your perfect orange/rose
-            600: '#FF4D3D',
-            700: '#FF2A19',
-            800: '#F51A08',
-            900: '#C91507',
+            50: '#FFF0F7',
+            100: '#FFE3EF',
+            200: '#FFC6DF',
+            300: '#FF99C8',
+            400: '#FF66AC',
+            500: '#C4306B',  // Magenta from image
+            600: '#A32557',
+            700: '#821B44',
+            800: '#611431',
+            900: '#400D21',
           },
           teal: {
-            500: '#0F2830',  // Main background - darker version
-            600: '#0C1F25',  // Darker
-            700: '#091619',  // Even darker
-            800: '#060D0F',  // Very dark
-            900: '#030506',  // Almost black
+            500: '#0E2830',  // Main background - darkest teal from image
+            600: '#0B1F25',
+            700: '#081619',
+            800: '#050D0E',
+            900: '#020607',
           },
+          burgundy: {        // Additional accent from image
+            500: '#6E2842',
+            600: '#5A2036',
+            700: '#46182A',
+            800: '#32111E',
+            900: '#1F0A12',
+          }
         },
         backgroundImage: {
           'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
