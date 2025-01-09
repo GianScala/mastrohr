@@ -5,54 +5,76 @@ module.exports = {
       extend: {
         colors: {
           primary: {
-            50: '#F5F7F9',
-            100: '#E1E7ED',
-            200: '#C3CFD9',
-            300: '#9DB1C3',
-            400: '#7890A9',
-            500: '#1F2937',  // Deep charcoal with slight warmth
-            600: '#1A232F',
-            700: '#151C26',
-            800: '#0F151D',
-            900: '#0A0D13',
+            50: '#FAFAFA',
+            100: '#F4F4F5',
+            200: '#E4E4E7',
+            300: '#D4D4D8',
+            400: '#A1A1AA',
+            500: '#18181B',  // Main color - sophisticated dark
+            600: '#131314',
+            700: '#0D0D0E',
+            800: '#080809',
+            900: '#030303',
           },
           accent: {
-            50: '#FFF1ED',
-            100: '#FFE4DB',
-            200: '#FFD5C7',
-            300: '#FFC5B3',
-            400: '#FFB49F',
-            500: '#983628',  // Mars dusty red
-            600: '#8A2A1F',  // Deeper Mars red
-            700: '#7C1F17',  // Rich oxide red
-            800: '#6E150F',  // Deep Mars crater red
-            900: '#600C08',  // Darkest Mars shadow
+            50: '#F6F4FF',
+            100: '#EDE9FF',
+            200: '#DCD4FF',
+            300: '#C2B5FF',
+            400: '#9C89FF',
+            500: '#6B3FA0',  // Rich purple - perfect for accents
+            600: '#5A2E8F',
+            700: '#482178',
+            800: '#371662',
+            900: '#260D4C',
           },
-          teal: {
-            500: '#0C1C23',  // Darker background
-            600: '#091418',
-            700: '#060D11',
-            800: '#03070A',
-            900: '#010304',
-          },
-          mars: {           // Additional Mars-inspired colors
-            rust: '#B34923',     // Rusty orange
-            sand: '#D68763',     // Mars surface
-            shadow: '#892A1F',   // Deep shadows
-            dust: '#CC4E33',     // Dust storms
-            night: '#1A1210'     // Mars night
+          dark: {           // More blacks/grays for layering
+            500: '#101012',  // Main background
+            600: '#0C0C0D',
+            700: '#080809',
+            800: '#040405',
+            900: '#020202',
           },
           surface: {
-            light: '#1F2937',    // Top-level surfaces
-            default: '#1A232F',  // Main surface
-            dark: '#151C26',     // Sunken surfaces
+            card: '#1C1C1F',    // Card backgrounds
+            default: '#18181B',  // Main surface
+            deep: '#131314',     // Deeper elements
+          },
+          text: {
+            primary: '#FFFFFF',
+            secondary: '#A1A1AA',
+            tertiary: '#71717A',
+            purple: '#9C89FF',   // Accent text
+          },
+          // Special effects colors
+          glass: {
+            light: 'rgba(255, 255, 255, 0.03)',
+            medium: 'rgba(255, 255, 255, 0.05)',
+            heavy: 'rgba(255, 255, 255, 0.08)',
+          },
+          overlay: {
+            light: 'rgba(0, 0, 0, 0.2)',
+            medium: 'rgba(0, 0, 0, 0.4)',
+            heavy: 'rgba(0, 0, 0, 0.6)',
+          },
+          // Additional UI colors
+          state: {
+            success: '#38B26C',
+            warning: '#F7B955',
+            error: '#E35D6A',
+            info: '#4A9BFF',
           }
         },
         backgroundImage: {
           'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
           'gradient-dark': 'linear-gradient(180deg, var(--tw-gradient-stops))',
-          'gradient-mars': 'linear-gradient(180deg, var(--tw-gradient-stops))',
+          'gradient-glass': 'linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02))',
         },
+        boxShadow: {
+          'card': '0 4px 24px -1px rgba(0, 0, 0, 0.3)',
+          'button': '0 2px 8px -1px rgba(0, 0, 0, 0.3)',
+          'purple': '0 4px 24px -1px rgba(107, 63, 160, 0.2)',
+        }
       },
     },
     plugins: [],
