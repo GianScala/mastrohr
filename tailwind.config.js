@@ -17,16 +17,16 @@ module.exports = {
             900: '#060A0C',
           },
           accent: {
-            50: '#FDFDE8',
-            100: '#FAFBC5',
-            200: '#F7F89D',
-            300: '#F1F175',
-            400: '#EAE94D',
-            500: '#FFB930',  // Warm yellow/amber - energetic & approachable
-            600: '#F5A122',  // Slightly darker for hover states
-            700: '#E88A17',  // Deep yellow for contrast
-            800: '#D67311',  // Dark amber
-            900: '#B35A0E',  // Deepest shade
+            50: '#F6F4FF',
+            100: '#EDE9FF',
+            200: '#DCD4FF',
+            300: '#C2B5FF',
+            400: '#9C89FF',
+            500: '#6B3FA0',  // Rich, deep purple
+            600: '#5A2E8F',  // Darker purple for depth
+            700: '#482178',  // Even deeper
+            800: '#371662',  // Very deep purple
+            900: '#260D4C',  // Darkest shade
           },
           teal: {
             500: '#0E2830',  // Main dark background
@@ -35,12 +35,11 @@ module.exports = {
             800: '#050D0E',
             900: '#020607',
           },
-          success: {        // Additional professional colors
-            500: '#38B26C',  // Success green
-            600: '#2D8F56',
-            700: '#236C41',
-            800: '#1A4A2D',
-            900: '#102819',
+          support: {        // Additional professional colors
+            success: '#38B26C',
+            warning: '#F7B955',
+            error: '#E35D6A',
+            info: '#4A9BFF'
           }
         },
         backgroundImage: {
