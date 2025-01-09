@@ -5,66 +5,72 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          50: '#E6EFEF',
-          100: '#D1E3E3',
-          200: '#A3C7C7',
-          300: '#75ABAB',
-          400: '#478F8F',
-          500: '#0D2A32',  // Main dark teal - deeper and more sophisticated
-          600: '#0A2128',  // Darker variation for depth
-          700: '#07181E',  // Even darker for layering
-          800: '#051114',  // Very dark for contrasts
-          900: '#02080A',  // Deepest shade for maximum contrast
+          50: '#F5F5F5',
+          100: '#E6E6E6',
+          200: '#CCCCCC',
+          300: '#B3B3B3',
+          400: '#999999',
+          500: '#111111',  // Main primary - deep black
+          600: '#0D0D0D',  // Darker black
+          700: '#0A0A0A',  // Even darker
+          800: '#070707',  // Very dark
+          900: '#040404',  // Deepest black
         },
         accent: {
-          50: '#FFF6E5',
-          100: '#FFEDCC',
-          200: '#FFDB99',
-          300: '#FFC966',
-          400: '#FFB733',
-          500: '#FF9500',  // Refined orange - more premium feel
-          600: '#CC7700',  // Darker orange for hover states
-          700: '#995A00',
-          800: '#663C00',
-          900: '#331E00',
+          50: '#FFF1F0',
+          100: '#FFE4E1',
+          200: '#FFC7C0',
+          300: '#FFA99E',
+          400: '#FF8B7D',
+          500: '#FF6F61',  // Your original vibrant orange/rose
+          600: '#FF4D3D',  // Slightly deeper
+          700: '#FF2A19',  // Deep accent
+          800: '#FF0800',  // Very deep
+          900: '#CC0600',  // Darkest accent
         },
-        background: {
-          default: '#081519',    // Main background - deeper and richer
-          surface: '#0A1D23',    // Card backgrounds
-          elevated: '#0C2429',   // Elevated elements
-          highlight: '#0E2B31',  // Highlighted sections
+        dark: {
+          500: '#0A0A0A',  // Main background
+          600: '#080808',  // Card backgrounds
+          700: '#060606',  // Secondary backgrounds
+          800: '#040404',  // Deeper elements
+          900: '#020202',  // Darkest elements
         },
-        overlay: {
-          light: 'rgba(13, 42, 50, 0.3)',    // Light overlays
-          medium: 'rgba(13, 42, 50, 0.6)',   // Medium overlays
-          heavy: 'rgba(13, 42, 50, 0.9)',    // Heavy overlays
+        surface: {
+          card: '#0D0D0D',    // Card background
+          default: '#0A0A0A', // Main surface
+          deep: '#070707',    // Deep surface
         },
         text: {
-          primary: '#FFFFFF',
-          secondary: '#B3C5C9',
-          muted: '#718387',
-          orange: '#FF9500',      // Accent text color
+          primary: '#FFFFFF',    // White text
+          secondary: '#B3B3B3',  // Gray text
+          accent: '#FF6F61',     // Orange/rose text
         },
         button: {
-          primary: '#FFFFFF',     // White buttons
-          secondary: '#0A2128',   // Dark buttons
-          accent: '#FF9500',      // Orange buttons
+          primary: '#FF6F61',    // Accent colored buttons
+          secondary: '#111111',   // Dark buttons
+          white: '#FFFFFF',      // White buttons
         },
+        // Special effects
         glass: {
-          light: 'rgba(255, 255, 255, 0.05)',
-          medium: 'rgba(255, 255, 255, 0.1)',
-          heavy: 'rgba(255, 255, 255, 0.15)',
+          light: 'rgba(255, 255, 255, 0.03)',
+          medium: 'rgba(255, 255, 255, 0.05)',
+          heavy: 'rgba(255, 255, 255, 0.08)',
+        },
+        overlay: {
+          light: 'rgba(0, 0, 0, 0.2)',
+          medium: 'rgba(0, 0, 0, 0.4)',
+          heavy: 'rgba(0, 0, 0, 0.6)',
         }
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-glass': 'linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02))',
-        'gradient-card': 'linear-gradient(180deg, rgba(13, 42, 50, 0.3) 0%, rgba(13, 42, 50, 0.15) 100%)',
+        'gradient-dark': 'linear-gradient(180deg, #111111 0%, #070707 100%)',
+        'gradient-card': 'linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0) 100%)',
       },
       boxShadow: {
-        'glass': '0 4px 24px -1px rgba(0, 0, 0, 0.2)',
-        'card': '0 8px 32px -4px rgba(0, 0, 0, 0.3)',
-        'button': '0 2px 8px -1px rgba(0, 0, 0, 0.3)',
+        'card': '0 8px 32px -4px rgba(0, 0, 0, 0.5)',
+        'button': '0 4px 16px -2px rgba(255, 111, 97, 0.2)',
+        'glow': '0 0 24px -4px rgba(255, 111, 97, 0.15)',
       }
     },
   },
