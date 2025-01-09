@@ -5,56 +5,47 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          50: '#F5F6F7',   // Lightest shade for contrast text
-          100: '#E6E8EA',  // Light backgrounds
-          200: '#C8CCD0',  // Subtle borders
-          300: '#A4ABB3',  // Disabled states
-          400: '#808891',  // Secondary text
-          500: '#1A1D21',  // Main primary - sophisticated dark
-          600: '#15171A',  // Hover states
-          700: '#111214',  // Active states
-          800: '#0C0D0E',  // Deep backgrounds
-          900: '#070808',  // Darkest shade
+          50: '#E6F0F0',   // Lightest teal shade
+          100: '#CCE0E0',  // Light teal for contrast elements
+          200: '#99C2C2',  // Subtle teal accents
+          300: '#66A3A3',  // Mid-light teal
+          400: '#338585',  // Medium teal
+          500: '#1B4F5A',  // Your original perfect teal - main color
+          600: '#164048',  // Slightly darker
+          700: '#113037',  // Deeper teal
+          800: '#0C2025',  // Very dark teal
+          900: '#071013',  // Darkest teal shade
         },
         accent: {
-          50: '#FFF7F0',   // Light orange hints
-          100: '#FFEAD9',  // Subtle backgrounds
-          200: '#FFD5B3',  // Highlights
-          300: '#FFB980',  // Secondary elements
-          400: '#FF9D4D',  // Supporting elements
-          500: '#FF8019',  // Main accent - professional orange
-          600: '#E66B00',  // Hover states
-          700: '#CC5F00',  // Active states
-          800: '#A64D00',  // Dark accents
-          900: '#803C00',  // Deep accents
+          50: '#FFF4E6',   // Lightest orange
+          100: '#FFE8CC',  // Light orange
+          200: '#FFD199',  // Soft orange
+          300: '#FFBA66',  // Medium light orange
+          400: '#FFA333',  // Medium orange
+          500: '#FF8C00',  // Your vibrant orange - perfect for stats
+          600: '#CC7000',  // Darker orange
+          700: '#995400',  // Deep orange
+          800: '#663800',  // Very dark orange
+          900: '#331C00',  // Darkest orange
         },
-        dark: {           // Core dark theme colors
-          50: '#202225',  // Lightest dark
-          100: '#1B1D1F', // Card backgrounds
-          200: '#161719', // Borders
-          300: '#111214', // Secondary backgrounds
-          400: '#0C0D0E', // Active states
-          500: '#070808', // Main dark
-          600: '#050506', // Deeper elements
-          700: '#030303', // Very deep elements
-          800: '#020202', // Nearly black
-          900: '#000000', // Pure black
+        teal: {
+          500: '#0F2F37',  // Main background - deeper version
+          600: '#0C262D',  // Card backgrounds
+          700: '#091D22',  // Secondary backgrounds
+          800: '#061418',  // Deeper elements
+          900: '#030A0D',  // Darkest elements
         },
-        // Additional professional dark theme colors
         surface: {
-          light: '#2A2D31',    // Top-level surfaces
-          default: '#1F2124',  // Main surface
-          dark: '#18191C',     // Sunken surfaces
-        },
-        divider: {
-          light: 'rgba(255, 255, 255, 0.08)',  // Subtle dividers
-          strong: 'rgba(255, 255, 255, 0.12)', // Stronger dividers
+          card: '#113037',    // Card background color
+          default: '#0F2F37', // Main surface color
+          deep: '#0C262D',    // Deeper surface color
         },
         text: {
-          primary: 'rgba(255, 255, 255, 0.95)',   // Primary text
-          secondary: 'rgba(255, 255, 255, 0.65)', // Secondary text
-          disabled: 'rgba(255, 255, 255, 0.38)',  // Disabled text
-        }
+          primary: '#FFFFFF',     // Primary text
+          secondary: '#B4C9CE',   // Secondary text
+          muted: '#8AA0A4',      // Muted text
+        },
+        divider: 'rgba(255, 255, 255, 0.08)' // Subtle dividers
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
