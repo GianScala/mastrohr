@@ -22,22 +22,23 @@ module.exports = {
             200: '#FFCCC6',
             300: '#FFA89E',
             400: '#FF8B80',
-            500: '#FF6F61',  // Main accent
+            500: '#FF6F61',  // Main accent - keeping your perfect orange/rose
             600: '#FF4D3D',
             700: '#FF2A19',
             800: '#F51A08',
             900: '#C91507',
           },
           teal: {
-            500: '#1b4f5a',  // Main background
-            600: '#174751',
-            700: '#123540',
-            800: '#0E2830',
-            900: '#091B20',
+            500: '#0F2830',  // Main background - darker version
+            600: '#0C1F25',  // Darker
+            700: '#091619',  // Even darker
+            800: '#060D0F',  // Very dark
+            900: '#030506',  // Almost black
           },
         },
         backgroundImage: {
           'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+          'gradient-dark': 'linear-gradient(180deg, var(--tw-gradient-stops))',
         },
       },
     },
